@@ -3,7 +3,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: nginx-deploy
-  namespace: web
+  namespace: fluxweb
 spec:
   selector:
     matchLabels:
